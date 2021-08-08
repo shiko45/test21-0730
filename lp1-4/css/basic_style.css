@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/*
+Theme Name: SUBHAND
+Author: SUBHAND.LLC
+Author URL: http://www.subhand.net/
+*/
+
+
+/* common
+---------------------------------------------*/
+* {margin:0;padding:0;}
+
+a:link,a:visited {
+	color: #000000;
+	text-decoration:none;
+}
+a:hover,a:active {
+	color: #d90909;
+	text-decoration:underline;
+}
+
+.impact   {font-size:20pt; font-weight:bold;}
+.impact2  {color:red;}
+.impact3  {background:yellow; color:#000;}
+#impact4  {underline;}
+.impact5  {background:#173B50; padding:2px 5px; color:#fff;}
+.impact6  {background:#f4f4f4; padding:3px; line-height:1.1;}
+.impact7  {background: #B60000; padding:2px 5px; color:#fff;}
+.style2   {color: #FF0000}
+.style3   {color: #333333}
+.style4   {color: #000000}
+
+
+img{ border: none;}
+
+
+
+
+/* layout
+---------------------------------------------*/
+
+/*TopIntro-Start*/
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 1100px;
+
+	background-image: url(../images/bg.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top center;
+
+
+	-webkit-text-size-adjust:none;
+	/* アンドロイドの文字崩れを防ぐ　PCの見た目と同じ文字サイズになる
+	　　アンドロイドの自動文字サイズ調整をオフにするコマンド
+	---*/
+
+	text-align:center;
+	font-size:35px;
+	font-family: 'Hiragino Kaku Gothic Pro', 'meiryo', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+	color: #000;
+}
+
+/* Running the contributed command: 'editor.emmet.action.updateImageSize' failed. */
+
+
+#head1 { background: url("../images/header_01.png") no-repeat top center; height:    323px; }
+#head2 { background: url("../images/header_02.png") no-repeat top center; height:    408px; }
+#head3 { background: url("../images/header_03.png") no-repeat top center; height:    231px; }
+#head4 { background: url("../images/header_04.png") no-repeat top center; height:    581px; }
+#head5 { background: url("../images/header_05.png") no-repeat top center; height:    592px; }
+/* #head5_1 { background: url("../images/header_05-1.png") no-repeat top center; height:    592px; } */
+#head6 { background: url("../images/header_06.png") no-repeat top center; height:    309px; }
+#head7 { background: url("../images/header_07.png") no-repeat top center; height:    326px; }
+#head8 { background: url("../images/header_08.png") no-repeat top center; height:    445px; }
+#head9 { background: url("../images/header_09.png") no-repeat top center; height:    346px; }
+
+#head10 { background: url("../images/header_10.png") no-repeat top center; height:    362px; }
+#head11 { background: url("../images/header_11.png") no-repeat top center; height:    1057px; }
+#head12 { background: url("../images/header_12.png") no-repeat top center; height:    1025px; }
+#head13 { background: url("../images/header_13.png") no-repeat top center; height:    946px; }
+#head14 { background: url("../images/header_14.png") no-repeat top center; height:    1049px; }
+#head15 { background: url("../images/header_15.png") no-repeat top center; height:    120px; }
+#head16 { background: url("../images/header_16.png") no-repeat top center; height:    565px; }
+#head17 { background: url("../images/header_17.png") no-repeat top center; height:    671px; }
+/* #head17_1 { background: url("../images/header_17-1.png") no-repeat top center; height:    671px; } */
+#head18 { background: url("../images/header_18.png") no-repeat top center; height:    345px; }
+#head19 { background: url("../images/header_19.png") no-repeat top center; height:    687px; }
+
+#head20 { background: url("../images/header_20.png") no-repeat top center; height:    364px; }
+#head21 { background: url("../images/header_21.png") no-repeat top center; height:    337px; }
+#head22 { background: url("../images/header_22.png") no-repeat top center; height:    305px; }
+#head23 { background: url("../images/header_23.png") no-repeat top center; height:    401px; }
+#head24 { background: url("../images/header_24.png") no-repeat top center; height:    418px; }
+#head25 { background: url("../images/header_25.png") no-repeat top center; height:    748px; }
+#head26 { background: url("../images/header_26.png") no-repeat top center; height:    356px; }
+#head27 { background: url("../images/header_27.png") no-repeat top center; height:    671px; }
+#head28 { background: url("../images/header_28.png") no-repeat top center; height:    357px; }
+#head29 { background: url("../images/header_29.png") no-repeat top center; height:    392px; }
+
+#head30 { background: url("../images/header_30.png") no-repeat top center; height:    532px; }
+#head31 { background: url("../images/header_31.png") no-repeat top center; height:    551px; }
+#head32 { background: url("../images/header_32.png") no-repeat top center; height:    549px; }
+#head33 { background: url("../images/header_33.png") no-repeat top center; height:    550px; }
+#head34 { background: url("../images/header_34.png") no-repeat top center; height:    552px; }
+#head35 { background: url("../images/header_35.png") no-repeat top center; height:    362px; }
+#head36 { background: url("../images/header_36.png") no-repeat top center; height:    263px; }
+#head37 { background: url("../images/header_37.png") no-repeat top center; height:    278px; }
+#head38 { background: url("../images/header_38.png") no-repeat top center; height:    361px; }
+#head39 { background: url("../images/header_39.png") no-repeat top center; height:    245px; }
+
+#head40 { background: url("../images/header_40.png") no-repeat top center; height:    305px; }
+#head41 { background: url("../images/header_41.png") no-repeat top center; height:    436px; }
+#head42 { background: url("../images/header_42.png") no-repeat top center; height:    481px; }
+#head43 { background: url("../images/header_43.png") no-repeat top center; height:    282px; }
+#head44 { background: url("../images/header_44.png") no-repeat top center; height:    363px; }
+
+
+
+
+/* 右に余白ができるときはheaderも含めてwrap0で囲う
+overflow hiddenは　はみ出した部分を表示しない
+
+#wrap0 {overflow: hidden;}
+
+---*/
+
+
+
+#wrap {
+
+	background-image: url("../images/bgg.png");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-position:50% 0%;
+}
+
+#container {
+
+	text-align:left;
+	width:1100px;
+	margin:0 auto;
+
+
+}
+
+#text {
+
+	text-align:left;
+	width:850px;
+	margin:0 auto;
+
+
+}
+
+#footer{
+
+
+	font-size: 15px;
+}
+
+
+/*AOS---*/
+
+#mi01{
+	position: relative;
+	top: 120px;;
+	left: -20px;
+}
